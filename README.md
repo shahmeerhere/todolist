@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 📝 iTask – Modern To-Do List App
 
-First, run the development server:
+**iTask** is a sleek, modern, and responsive **To-Do List application** built with **Next.js, React, and TailwindCSS**. Organize your tasks efficiently with a clean UI, AI-ready future enhancements, and secure local storage.
+
+---
+
+## 🚀 Features
+
+* ✅ Add, edit, and delete tasks
+* 🔄 Mark tasks as completed / pending
+* 👀 Toggle visibility of finished tasks
+* 💾 Persistent tasks using **Local Storage**
+* 🎨 Modern responsive UI with **TailwindCSS**
+* 🖥️ Fully functional on desktop and mobile devices
+* ⚡ Smooth hover animations and transitions
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend        | Styling     | State Management    | Utilities                     |
+| --------------- | ----------- | ------------------- | ----------------------------- |
+| React / Next.js | TailwindCSS | useState, useEffect | uuid for unique IDs           |
+| React Icons     | -           | -                   | Local Storage for persistence |
+
+---
+
+## 📸 Screenshots
+
+| Add Task            | Task List            | Dark Mode / Theme |
+| ------------------- | -------------------- | ----------------- |
+| Add Task Screenshot | Task List Screenshot | Theme Screenshot  |
+
+> Replace placeholders with actual screenshots of your app.
+
+---
+
+## ⚡ Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/iTask.git
+
+# Navigate to project
+cd iTask
+
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖱️ Usage
 
-## Learn More
+1. Type your task in the input field
+2. Click **Add** or press **Enter**
+3. ✅ Mark tasks as done by clicking the checkbox
+4. ✏️ Edit or 🗑️ Delete tasks using the respective buttons
+5. 👀 Toggle “Show Finished” to hide completed tasks
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* ⚡ **AI suggestions** for task management
+* 🌓 **Theme toggle (light/dark mode)**
+* ☁️ **Cloud storage / syncing across devices**
+* 🔔 **Notifications & reminders**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+iTask/
+├─ pages/
+├─ components/
+├─ public/
+├─ styles/
+├─ package.json
+└─ README.md
+```
+
+---
+
+## 📌 Contributing
+
+Contributions, suggestions, and bug reports are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📫 Contact / Demo
+
+* 🔗 Live Demo: https://YOUR_APP_URL
+* 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+* 💼 LinkedIn: [https://linkedin.com/in/YOUR_PROFILE](https://linkedin.com/in/YOUR_PROFILE)
+
+---
+
+## ⚖️ License
+
+This project is **MIT Licensed**. See LICENSE for details.
+
+---
+
+**Made with ❤️ using React, Next.js, and TailwindCSS**
